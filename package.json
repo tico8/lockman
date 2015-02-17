@@ -1,0 +1,18 @@
+{
+  "name": "lockman",
+  "version": "0.0.1",
+  "description": "Distributed locks with Redis",
+  "main": "./lib/mutex.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tico8/lockman"
+  },
+  "dependencies": {
+    "redis-sentinel-client": "0.2.5"
+  },
+  "devDependencies": {
+  },
+  "engines": {
+    "node": ">=0.11.12"
+  }
+}
